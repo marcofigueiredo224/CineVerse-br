@@ -12,13 +12,14 @@
 
 
 .titulo-detalhes{
-    font-size: 100px;
+    font-size: 70px;
     font-weight: bold;
     
 }
 
 .subtitulo-detalhes{
     margin-top: 10px;
+    font-size: 40px;
 }
 
 
