@@ -22,8 +22,8 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 60%;
-    height: 8%;
+    width: 100%;
+    height: 40%;
     max-width: 100%; /* Defina a largura máxima da modal de acordo com sua preferência */
     max-height: 100%; /* Defina a altura máxima da modal de acordo com sua preferência */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -32,7 +32,7 @@ body{
   }
   
   .modal-content {
-    padding: 20px;
+    
     position: relative;
     overflow: auto; /* Permite rolagem se o conteúdo for maior que a modal */
   }
@@ -46,11 +46,6 @@ body{
     color: black;
   }
   
-  /* Estilos para o vídeo */
-  #videoPlayer {
-    width: 100%; /* Garante que o vídeo se ajuste ao tamanho da modal */
-    height: auto; /* Mantém a proporção original do vídeo */
-  }
   
   /* Estilo para ocultar o vídeo inicialmente */
 .hidden {
@@ -69,6 +64,10 @@ body{
     color: white;
 }
 
+
+#videoContainer{
+    
+}
   
   
   

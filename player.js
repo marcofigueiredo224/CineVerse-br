@@ -27,6 +27,10 @@ function abrirModal() {
     video.id = "videoPlayer";
     video.controls = true;
 
+    // Defina o tamanho desejado do vídeo (por exemplo, 800px de largura e 450px de altura)
+    video.style.width = "400px";
+    video.style.height = "200px";
+
     // Adicione o vídeo ao contêiner
     videoContainer.innerHTML = "";
     videoContainer.appendChild(video);
@@ -43,19 +47,6 @@ function abrirModal() {
 
     // Ajuste o estilo do modal para ocupar toda a tela
     videoModal.classList.remove("modal-fullscreen");
-
-    // Exiba o modal do vídeo em tela cheia
-    var videoModal = document.getElementById("videoModal");
-    videoModal.style.display = "block";
-
-    // Inicie o vídeo em tela cheia
-    if (video.requestFullscreen) {
-        video.requestFullscreen();
-    } else if (video.mozRequestFullScreen) {
-        video.mozRequestFullScreen();
-    } else if (video.webkitRequestFullscreen) {
-        video.webkitRequestFullscreen();
-    }
 }
 
 function fecharModal() {
