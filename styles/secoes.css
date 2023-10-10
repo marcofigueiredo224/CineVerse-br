@@ -1,0 +1,80 @@
+.secoes_filmes{
+    text-align: center; 
+}
+.title_secoes{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.img-series{
+    width: 200px;
+    margin-right: 5px;
+}
+
+.img-series-10{
+    width: 100px;
+    margin-right: 5px;
+}
+
+
+.left_btn, .right_btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+
+
+.left_btn{
+  margin-left: 10px;
+}
+.right_btn{
+    margin-left: 10px;
+}
+
+
+.nmr_top10{
+    font-weight: bold;
+    font-size: 130px;
+    border: solid 1px white;
+    
+    
+}
+
+
+
+/* CONFIGURAÇÃO DO CARROSSEL */
+
+.projeto-carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.img-series { 
+    scroll-snap-align: start;
+}
+.projeto-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.projeto-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+
+.nav-arrow{
+    display: none;
+}
+
+  
+  
