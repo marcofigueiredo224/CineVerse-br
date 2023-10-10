@@ -22,8 +22,8 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 70%;
-    height: 50%;
+    width: 60%;
+    height: 8%;
     max-width: 100%; /* Defina a largura máxima da modal de acordo com sua preferência */
     max-height: 100%; /* Defina a altura máxima da modal de acordo com sua preferência */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -55,6 +55,18 @@ body{
   /* Estilo para ocultar o vídeo inicialmente */
 .hidden {
     display: none;
+}
+
+.linguagem_player{
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.linguagem_player:hover{
+    background-color: red;
+    color: white;
 }
 
   
