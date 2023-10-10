@@ -30,6 +30,7 @@ function abrirModal() {
     // Defina o tamanho desejado do vídeo (por exemplo, 800px de largura e 450px de altura)
     video.style.width = "400px";
     video.style.height = "200px";
+    video.style.marginTop = "20px"
 
     // Adicione o vídeo ao contêiner
     videoContainer.innerHTML = "";
