@@ -7,13 +7,18 @@
     
 }
 
+.reload-inicio{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 .material-symbols-outlined{
     
     color: white;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .menu{
