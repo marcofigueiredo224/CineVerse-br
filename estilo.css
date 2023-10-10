@@ -13,4 +13,54 @@ body{
 }
 
 
+/* Estilos para a modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 70%;
+    height: 50%;
+    max-width: 100%; /* Defina a largura máxima da modal de acordo com sua preferência */
+    max-height: 100%; /* Defina a altura máxima da modal de acordo com sua preferência */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .modal-content {
+    padding: 20px;
+    position: relative;
+    overflow: auto; /* Permite rolagem se o conteúdo for maior que a modal */
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  /* Estilos para o vídeo */
+  #videoPlayer {
+    width: 100%; /* Garante que o vídeo se ajuste ao tamanho da modal */
+    height: auto; /* Mantém a proporção original do vídeo */
+  }
+  
+  /* Estilo para ocultar o vídeo inicialmente */
+.hidden {
+    display: none;
+}
+
+  
+  
+  
+  
+
+
 
