@@ -1,10 +1,18 @@
 .secoes_filmes{
-    text-align: center; 
+    margin-left: 15px;
+    
 }
+
+.bombando, .series, .top-filmes, .lancamentos, .para-voce, .top-series, .comedia {
+    margin-bottom: 20px; /* Você pode ajustar o valor conforme necessário */
+  }
+
+
 .title_secoes{
     font-size: 20px;
     padding: 10px;
     font-weight: bold;
+    
 }
 
 .img-series{
@@ -20,22 +28,23 @@
 
 .left_btn, .right_btn{
     background-color: transparent;
-    border: none;
+   
     color: white;
     cursor: pointer;
     font-weight: bold;
-    align-items: center;
+    float: right;
+    
+    
     
 }
 
-
-
 .left_btn{
-  margin-left: 10px;
+    margin-right: 5px;
 }
-.right_btn{
-    margin-left: 10px;
-}
+
+
+
+
 
 
 .nmr_top10{

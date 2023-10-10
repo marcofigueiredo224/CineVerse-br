@@ -1,0 +1,28 @@
+footer{
+    align-items: center;
+    padding: 40px;
+}
+.rodape_informações{
+    display: flex;
+}
+
+.rodape_textos{
+    
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    
+}
+
+
+.rodape_informações {
+    text-align: center;
+  }
+
+  
+  /* Centralizar horizontalmente o último texto do rodapé */
+  .rodape_text-last {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10%;
+  }
