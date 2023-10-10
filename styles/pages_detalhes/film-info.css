@@ -76,7 +76,7 @@
 }
 
 .fotos-eps{
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -85,7 +85,7 @@
 
 .nome-ep {
     margin-left: 10px; /* Adapte o valor conforme necessário */
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .nome-ep:hover {
