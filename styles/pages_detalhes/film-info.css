@@ -12,11 +12,12 @@
 .foto-dealhes{
  
     width: 150px;
+    height: 200px;
 }
 
 
 .titulo-detalhes{
-    font-size: 150px;
+    font-size: 30px;
     font-weight: bold;
     
 }
