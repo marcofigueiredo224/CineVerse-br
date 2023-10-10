@@ -2,18 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/styles/pages_detalhes/estilo.css">
     <title>The Walking Dead | Temporadas</title>
 </head>
 <body>
+    <header class="cabecalho">
+        <div class="navbar">
+            <span class="material-symbols-outlined" id="icon_menu-hamburguer" onclick="clickMenu()">
+                menu
+                </span>
+            <ul class="menu" id="menu">
+                <li class="menu__items">
+                    <a class="link_itens" href="#">Início</a>
+                </li>
+                <li class="menu__items">
+                    <a class="link_itens" href="#">Séries</a>
+                </li>
+                <li class="menu__items">
+                    <a class="link_itens" href="#">Fimes</a>
+                </li>
+                <li class="menu__items">
+                    <a class="link_itens" href="#">Top Filmes</a>
+                </li>
+               
+            </ul>
+        </div>
+
+        <div class="nav_title">
+            <h1 class="title_cabecalho">CineVerse<span>br</span></h1>              
+        </div>
 
 
-    <div class="tela-detalhes">
-        <h2 id="titulo-filme">Título do Filme</h2>
-        <p id="descricao-filme">Descrição do Filme</p>
-    </div>
+        <div class="nav_pesquisa">
+            
+            <span class="material-symbols-outlined" id="icon_pesquisa"  onclick="clickPesquisar()">search</span>
+            <input class="campo_pesquisa" placeholder="Buscar" type="text" id="campo_pesquisa">
+            
+
+        </div>
+    </header>
+    
+    <section class="infos_serie">
+        <img src="/img/dealhes/foto-details-twd.jpg" class="foto-dealhes">
+        <div class="infos_serie_superior">
+        <h2 class="titulo-detalhes">Assistir The Walking Dead Online</h2>
+        <p class="subtitulo-detalhes">Oct. 31, 2010</p>
+      
+        </div>
+    </section>
+
+
+    <section class="temporadas">
+        <h2 class="titulo_secao-temporadas">Temporadas</h2>
+        <div class="temporadas_conteudo">
+            <div class="temporada texto">
+                <div class="numero-temporada" onclick="clickTemporada('temporada1')">1ª Temporada <span class="material-symbols-rounded mais">add</span></div>
+            </div>
+            <div id="temporada1" class="temporada_eps">
+                <ul>
+                    <div class="episodio">
+                        <img src="/img/dealhes/temp1-ep-1-twd.jpg" class="fotos-eps">
+                        <li onclick="assistirVideo()" class="nome-ep">Adeus, Passado</li>
+                    </div>
+                    <div class="episodio">
+                        <img src="/img/dealhes/temp1-ep-2-twd.jpg" class="fotos-eps">
+                        <li class="nome-ep">Entranhas</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    
     
 
-    
+
+
+
+
+
+
+    <script>
+    function clickTemporada(id) {
+    var temporada_eps = document.getElementById(id);
+
+    if (temporada_eps.style.display == "block") {
+        temporada_eps.style.display = "none";
+    } else {
+        temporada_eps.style.display = "block";
+    }
+}
+
+    </script>
+
+    <script src="flm.js"></script>
+    <script src="/player.js"></script>
+    <script src="/pages.js"></script>
+    <script src="/carousel.js"></script>
+    <script src="/camps_pesquisa.js"></script>
 </body>
 </html>

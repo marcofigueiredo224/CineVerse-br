@@ -1,0 +1,77 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    position: relative;
+    
+}
+
+
+
+.material-symbols-outlined{
+    
+    color: white;
+    cursor: pointer;
+}
+
+.menu{
+    display: none;
+    background-color: rgb(26, 25, 25);
+    position: absolute;
+    
+    
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu li{
+    padding: 1em;
+    list-style: none;
+}
+.link_itens:hover{
+    color: rgb(214, 0, 0);
+    transition: 0.8s all;
+}
+
+
+
+.campo_pesquisa{
+    width: 30%;
+    display: none;
+    position: absolute;
+    margin-left: -90px;
+}
+
+.nav_title span{
+    color: rgb(214, 0, 0);
+    font-weight: bold;
+    
+}
+.nav_title{
+    font-size: 25px;
+}
+
+
+.campo_pesquisa{
+    background-color: rgb(46, 46, 46);
+    border-radius: 2px;
+    border: solid  1px white;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+  
+
+

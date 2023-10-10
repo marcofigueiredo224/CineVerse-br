@@ -1,0 +1,96 @@
+.infos_serie{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10%;
+    
+}
+
+.infos_serie_superior{
+    margin-left: 10px;
+}
+
+.foto-dealhes{
+ 
+    width: 120px;
+}
+
+
+.titulo-detalhes{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.subtitulo-detalhes{
+    margin-top: 10px;
+}
+
+
+.temporadas{
+    margin-left: 10px;
+}
+
+
+
+.titulo_secao-temporadas{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+
+}
+
+.temporadas_texto{
+   
+    display: flex;
+    flex-direction: row;
+    border: solid 2px white;
+    
+    
+}
+
+.numero-temporada{
+    font-size: 17px;
+    border: solid 1px ;
+    padding: 6px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.mais{
+    float: right;
+    margin-top: -4px;
+}
+
+
+.temporada_eps{
+    display: none;
+}
+
+.episodio {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.fotos-eps{
+    width: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.nome-ep {
+    margin-left: 10px; /* Adapte o valor conforme necessário */
+}
+
+.nome-ep:hover {
+    color: rgb(214, 0, 0);
+    transition: 0.8s all;
+}
+

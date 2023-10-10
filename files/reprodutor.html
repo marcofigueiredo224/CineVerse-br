@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Assistir ao Vídeo</title>
+</head>
+<body>
+    <video id="videoPlayer" controls>
+        <source src="" type="video/mp4" id="videoSource">
+        Seu navegador não suporta a reprodução de vídeos.
+    </video>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    const videoPlayer = document.getElementById("videoPlayer");
+    const videoSource = document.getElementById("videoSource");
+
+    // Obtém o URL do vídeo da URL da página
+    const urlParams = new URLSearchParams(window.location.search);
+    const videoUrl = urlParams.get("videoUrl");
+
+    // Carrega o vídeo
+    videoSource.src = decodeURIComponent(videoUrl);
+    videoPlayer.load();
+
+    </script>
+</body>
+</html>
