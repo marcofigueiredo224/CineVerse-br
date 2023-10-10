@@ -77,6 +77,34 @@
                 </ul>
             </div>
         </div>
+
+        <!--Temporada 2. -->
+        <div class="temporadas_conteudo">
+            <div class="temporada texto">
+                <div class="numero-temporada" onclick="clickTemporada2('temporada2')">2ª Temporada <span class="material-symbols-rounded mais">add</span></div>
+            </div>
+            <div id="temporada2" class="temporada_eps2">
+                <ul>
+                    <div class="episodios-temp2">
+                        <img src="/img/dealhes/temp1-ep-1-twd.jpg" class="fotos-eps">
+                        <li onclick="assistirVideo()" class="nome-ep">Adeus, Passado</li>
+                    </div>
+                    <div class="episodio">
+                        <img src="/img/dealhes/temp1-ep-2-twd.jpg" class="fotos-eps">
+                        <li class="nome-ep">Entranhas</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
     </section>
     
     
@@ -88,18 +116,7 @@
 
 
 
-    <script>
-    function clickTemporada(id) {
-    var temporada_eps = document.getElementById(id);
-
-    if (temporada_eps.style.display == "block") {
-        temporada_eps.style.display = "none";
-    } else {
-        temporada_eps.style.display = "block";
-    }
-}
-
-    </script>
+    <script src="click_teporada.js"></script>
 
     <script src="flm.js"></script>
     <script src="/player.js"></script>
