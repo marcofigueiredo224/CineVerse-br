@@ -17,27 +17,33 @@ function abrirModal() {
     abrirModal();
   }
 
-
-
-
   function iniciarVideoTelaCheia() {
-    var modal = document.getElementById("myModal");
-    modal.style.display = "none"; // Fecha a modal
+    var videoContainer = document.getElementById("videoContainer");
+    var videoUrl = "https://hugh.cdn.rumble.cloud/video/s8/2/s/X/D/x/sXDxl.aaa.mp4?u=0&b=0";
 
-    var videoPlayer = document.getElementById("videoPlayer");
-    videoPlayer.classList.remove("hidden"); // Remove a classe hidden para mostrar o vídeo
+    // Crie um elemento de vídeo
+    var video = document.createElement("video");
+    video.src = videoUrl;
 
-    // Verifique se a função de tela cheia está disponível no navegador
-    if (videoPlayer.requestFullscreen) {
-        videoPlayer.requestFullscreen();
-    } else if (videoPlayer.mozRequestFullScreen) {
-        videoPlayer.mozRequestFullScreen();
-    } else if (videoPlayer.webkitRequestFullscreen) {
-        videoPlayer.webkitRequestFullscreen();
-    } else if (videoPlayer.msRequestFullscreen) {
-        videoPlayer.msRequestFullscreen();
+    // Adicione o vídeo ao contêiner
+    videoContainer.innerHTML = "";
+    videoContainer.appendChild(video);
+
+    // Inicie o vídeo em tela cheia
+    if (video.requestFullscreen) {
+        video.requestFullscreen();
+    } else if (video.mozRequestFullScreen) {
+        video.mozRequestFullScreen();
+    } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
     }
 }
+
+function fecharModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}
+
 
 
   
