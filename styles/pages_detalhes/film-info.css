@@ -49,7 +49,7 @@
 }
 
 .numero-temporada{
-    font-size: 25px;
+    font-size: 30px;
     border: solid 1px ;
     padding: 6px;
     align-items: center;
@@ -59,7 +59,7 @@
 
 .mais{
     float: right;
-    margin-top: -4px;
+    margin-top: 4px;
 }
 
 
@@ -75,7 +75,7 @@
 }
 
 .fotos-eps{
-    width: 120px;
+    width: 250px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -84,6 +84,7 @@
 
 .nome-ep {
     margin-left: 10px; /* Adapte o valor conforme necessário */
+    font-size: 20px;
 }
 
 .nome-ep:hover {
