@@ -30,7 +30,7 @@ function abrirModal() {
     // Defina o tamanho desejado do vídeo (por exemplo, 800px de largura e 450px de altura)
     video.style.width = "400px";
     video.style.height = "200px";
-    video.style.marginTop = "20px"
+    video.style.marginTop = "40px"
 
     // Adicione o vídeo ao contêiner
     videoContainer.innerHTML = "";
@@ -50,9 +50,18 @@ function abrirModal() {
     videoModal.classList.remove("modal-fullscreen");
 }
 
-function fecharModal() {
-    var modal = document.getElementById("myModal");
-    modal.style.display = "none";
+function fecharVideoModal() {
+    var videoModal = document.getElementById("myModal");
+    videoModal.style.display = "none";
+
+    // Pare o vídeo quando o modal for fechado
+    var video = document.getElementById("videoPlayer");
+    if (video) {
+        video.pause();
+    }
+
+    // Recarregue a página
+    window.location.reload(true);
 }
 
 
