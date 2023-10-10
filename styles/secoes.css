@@ -20,6 +20,15 @@
     margin-right: 5px;
 }
 
+.img-series:hover {
+    transform: scale(1.1); /* Aumenta a escala em 10% */
+    transition: transform 0.2s; /* Adiciona uma transição suave */
+  }
+.img-series-10:hover {
+    transform: scale(1.1); /* Aumenta a escala em 10% */
+    transition: transform 0.2s; /* Adiciona uma transição suave */
+  }
+
 .img-series-10{
     width: 100px;
     margin-right: 5px;
