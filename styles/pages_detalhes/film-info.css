@@ -1,4 +1,5 @@
 
+
 .infos_serie{
     display: flex;
     margin-left: 10px;
@@ -103,3 +104,6 @@
     transition: 0.8s all;
 }
 
+.temps-frame{
+    margin: 5%;
+}
