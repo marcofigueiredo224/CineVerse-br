@@ -103,9 +103,15 @@
     color: rgb(214, 0, 0);
     transition: 0.8s all;
 }
-
+.pag_play{
+    display: flex;
+   
+    text-align: center;
+}
 .temps-frame{
    margin-top: 5%;
+   width: 90%;
+   margin: 0 auto;
 }
 
 
@@ -120,6 +126,3 @@
     cursor: pointer;
 }
 
-.fecharIframe:hover {
-    
-}

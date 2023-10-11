@@ -3,8 +3,11 @@ function clickTemporada(id) {
 
     if (temporada_eps.style.display == "block") {
         temporada_eps.style.display = "none";
+    
+        
     } else {
         temporada_eps.style.display = "block";
+        
     }
 }
 
