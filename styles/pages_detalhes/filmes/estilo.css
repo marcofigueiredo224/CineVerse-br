@@ -1,0 +1,19 @@
+@import url(filmes_info.css);
+@import url(header.css);
+@import url(rodape.css);
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:ital,wght@0,600;1,600&display=swap');
+
+
+
+body{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+body{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}

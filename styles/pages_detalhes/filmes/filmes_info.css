@@ -1,0 +1,53 @@
+
+
+.infos_serie{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10%;
+    
+}
+
+.foto-dealhes{
+    width: 300px;
+}
+
+.infos_serie_superior{
+    margin-left: 10px;
+}
+
+
+
+.titulo-detalhes{
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+
+.subtitulo-detalhes{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+
+.pag_play{
+    
+   
+    text-align: center;
+}
+.temps-frame{
+   margin-top: 5%;
+   width: 90%;
+   margin: 0 auto;
+}
+
+
+
+
+.pag-play_tittle{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+
