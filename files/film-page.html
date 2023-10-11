@@ -58,7 +58,7 @@
     </section>
 
 
-    <!--<section class="temporadas">
+    <section class="temporadas">
         <h2 class="titulo_secao-temporadas">Temporadas</h2>
         <div class="temporadas_conteudo">
             <div class="temporada texto">
@@ -78,7 +78,7 @@
             </div>
         </div> 
 
-        Temporada 2. 
+        <!--Temporada 2!-->. 
         <div class="temporadas_conteudo">
             <div class="temporada texto">
                 <div class="numero-temporada" onclick="clickTemporada2('temporada2')">2ª Temporada <span class="material-symbols-rounded mais">add</span></div>
@@ -95,12 +95,34 @@
                     </div>
                 </ul>
             </div>
-        </div> --> 
+        </div> 
+        <iframe class="temps-frame" id="videoIframe" src="https://embed.warezcdn.com/serie/tt1520211/1/1" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
 
-
-        <iframe class="temps-frame" src="https://embed.warezcdn.com/serie/tt1520211/1" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
-
+        <script>
+            var videoIframe = document.getElementById("videoIframe");
     
+            function assistirVideo() {
+                if (videoIframe.style.display === "block") {
+                    // Se o iframe estiver visível, oculte-o
+                    videoIframe.style.display = "none";
+    
+                    // Restaure a visibilidade de outros elementos
+                    document.body.style.display = "block";
+                } else {
+                    // Se o iframe estiver oculto, exiba-o
+                    videoIframe.style.display = "block";
+    
+                    // Oculte outros elementos, exceto o cabeçalho
+                    document.querySelector('.infos_serie') = "none";
+                    document.querySelector('.cabecalho').style.display = "block";
+                }
+            }
+        </script>
+
+
+       
+
+       
 
 
 
@@ -120,11 +142,7 @@
 
 
     <script src="click_teporada.js"></script>
-
-    <script src="flm.js"></script>
-    <script src="/player.js"></script>
     <script src="/pages.js"></script>
-    <script src="/carousel.js"></script>
     <script src="/camps_pesquisa.js"></script>
 </body>
 </html>
