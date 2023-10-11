@@ -95,4 +95,28 @@
 }
 
   
-  
+
+@media screen and (min-width: 1023px) and (max-width: 2000px) {
+
+    .title_secoes{
+        font-size: 30px;
+    }
+
+    .img-series{
+        width: 320px;
+    }
+    
+
+    .img-series-10{
+        width: 150px;
+        margin-right: 5px;
+    }
+
+    .nmr_top10{
+        font-weight: bold;
+        font-size: 230px;
+        border: solid 1px white;
+        
+        
+    }
+}

@@ -1,5 +1,29 @@
 
 
+
+.foto-dealhes{
+    width: 300px;
+    height: 500px;
+   
+}
+
+.nota-imdb{
+    text-align: center;
+}
+
+.nota-imdb{
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.estrelas{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -30%;
+}
+
+
 .infos_serie{
     display: flex;
     margin-left: 40px;
@@ -48,6 +72,61 @@
     font-weight: bold;
     margin-top: 5%;
     padding: 20px;
+}
+
+
+
+
+@media screen and (min-width: 1023px) and (max-width: 2000px) {
+
+    
+    .nota-imdb{
+        text-align: center;
+    }
+    
+    .nota-imdb{
+        
+    }
+    .estrelas{
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -25%;
+    }
+    
+    .pag_play{
+        margin-top: -12%;
+
+    }
+    
+    .foto-dealhes{
+        width: 250px;
+        height: 400px;    }
+    .infos_serie{
+        
+        margin-left: 2%;
+        margin-top: 5%;
+        
+    }
+
+
+    
+
+    .titulo-detalhes{
+        font-size: 45px;
+        margin-top: 4%;
+    }
+
+    .subtitulo-detalhes{
+        font-size: 20px;
+    }
+
+    .temps-frame{
+        height: 800px;
+        width: 1400px;
+    }
+
+
 }
 
 

@@ -7,8 +7,32 @@
     
 }
 
+.foto-dealhes{
+    width: 300px;
+    height: 500px;
+   
+}
+
 .infos_serie_superior{
     margin-left: 10px;
+}
+.nota-imdb{
+    text-align: center;
+}
+
+.nota-imdb{
+    margin-top: 10%;
+}
+
+
+.nota{
+    font-weight: bold;
+}
+.estrelas{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -30%;
 }
 
 
@@ -125,5 +149,119 @@
     color: white;
     border: solid 2px white;
     cursor: pointer;
+}
+
+
+
+
+
+@media screen and (min-width: 1023px) and (max-width: 2000px) {
+
+    
+    .nota-imdb{
+        text-align: center;
+    }
+    
+    .nota-imdb{
+        
+    }
+    .estrelas{
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -20%;
+    }
+    
+    .temporadas{
+        margin: 5%;
+        margin-top: -8%;
+    }
+    
+    .foto-dealhes{
+        width: 250px;
+        height: 400px;    
+        margin-left: 5%;
+    }
+    .infos_serie{
+        
+        margin-left: 2%;
+        margin-top: 5%;
+        
+    }
+
+    .titulo-detalhes{
+        font-size: 50px;
+    }
+
+    .subtitulo-detalhes{
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+
+    .temporadas_conteudo{
+        margin-bottom: 15px;
+    }
+
+    
+    
+    .titulo_secao-temporadas{
+        font-size: 34px;  
+    }
+
+
+    .numero-temporada{
+        font-size: 25px;
+        padding: 10px;
+    
+    
+    }
+
+    .fotos-eps{
+        width: 200px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .video-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .pag_play{
+        margin-top: -7%;
+    }
+
+    .temps-frame{
+        width: 60%;
+        height: 600px;
+    }
+
+    .fecharIframe{
+        width: 6%;
+        
+        
+    }
+
+    #fecharIframe {
+        position:relative;
+        bottom: 5%; /* Ajuste conforme necessário para a posição vertical */
+        left: 48%;
+        transform: translateX(-50%);
+        border-radius: 4px;
+        padding: 5px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        cursor: pointer;
+        
+    }
+
+    #fecharIframe:hover {
+        background-color: rgb(214, 0, 0);
+        transition: 0.8s all;
+    }
+    
+
 }
 

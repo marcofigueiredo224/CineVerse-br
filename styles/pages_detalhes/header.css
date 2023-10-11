@@ -72,6 +72,35 @@
 
 
 
+@media screen and (min-width: 1023px) and (max-width: 2000px) {
+    .cabecalho{
+        padding: 20px;
+    }
+
+
+    .nav_title{
+        font-size: 40px;
+    }
+
+    .campo_pesquisa{
+        width: 10%;
+        display: block;
+        position: absolute;
+        margin-left: -10%;
+        color: white;
+    }
+
+    .material-symbols-outlined{
+    
+        color: white;
+        cursor: pointer;
+        font-size: 55px;
+        font-size: 35px;
+    }
+}
+
+
+
 
 
 
