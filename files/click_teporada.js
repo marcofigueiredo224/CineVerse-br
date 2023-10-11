@@ -7,6 +7,8 @@ function clickTemporada(id) {
         temporada_eps.style.display = "block";
     }
 }
+
+/* Click Temporada 02*/
 function clickTemporada2(id) {
     var temporada_eps2 = document.getElementById(id);
 

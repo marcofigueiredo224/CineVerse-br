@@ -61,6 +61,12 @@
     cursor: pointer;
 
 }
+.numero-temporada:hover{
+    background-color: rgb(214, 0, 0);
+    transition: 0.8s all;
+
+}
+
 
 .mais{
     float: right;
