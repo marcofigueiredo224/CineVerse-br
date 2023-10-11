@@ -12,15 +12,50 @@
     <title>Assistir ao Vídeo</title>
 </head>
 <body>
+    <header class="cabecalho">
+        <div class="navbar">
+            <span class="material-symbols-outlined" id="icon_menu-hamburguer" onclick="clickMenu()">
+                menu
+                </span>
+            <ul class="menu" id="menu">
+                <li class="menu__items">
+                    <a class="link_itens" href="#">Início</a>
+                </li>
+                <li class="menu__items">
+                    <a class="link_itens" href="#">Séries</a>
+                </li>
+                <li class="menu__items">
+                    <a class="link_itens" href="#">Fimes</a>
+                </li>
+                <li class="menu__items">
+                    <a class="link_itens" href="#">Top Filmes</a>
+                </li>
+               
+            </ul>
+        </div>
+
+        <div class="nav_title">
+           <a class="reload-inicio" href="../index.html"> <h1 class="title_cabecalho"></h1>CineVerse<span>br</span></h1></a>      
+        </div>
+
+
+        <div class="nav_pesquisa">
+            
+            <span class="material-symbols-outlined" id="icon_pesquisa"  onclick="clickPesquisar()">search</span>
+            <input class="campo_pesquisa" placeholder="Buscar" type="text" id="campo_pesquisa">
+            
+
+        </div>
+    </header>
     
+   <section>
     <video id="videoPlayer" controls>
         <source src="" type="video/mp4" id="videoSource">
         Seu navegador não suporta a reprodução de vídeos.
     </video>
-
-    
     <input class="antesdepois_ep" type="button" value="EP Anterior">
     <input class="antesdepois_ep" type="button" value="Proxímo EP">
+    </section>
 
 
 

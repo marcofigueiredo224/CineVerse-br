@@ -1,9 +1,11 @@
-body{
-    margin: 50px;
-}
+
 #videoPlayer{
     margin-top: 50%;
     border: solid 2px white;
     width: 100%;
     
+}
+
+.antesdepois_ep{
+    background-color: red;
 }
