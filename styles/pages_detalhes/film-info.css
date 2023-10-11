@@ -105,5 +105,21 @@
 }
 
 .temps-frame{
-    display: none;
+   margin-top: 5%;
+}
+
+
+#fecharIframe{
+    margin-top: 2%;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 2%;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    cursor: pointer;
+}
+
+.fecharIframe:hover {
+    
 }
