@@ -43,18 +43,15 @@
 
 
         <div class="nav_pesquisa">
-            
             <span class="material-symbols-outlined" id="icon_pesquisa"  onclick="clickPesquisar()">search</span>
             <input class="campo_pesquisa" placeholder="Buscar" type="text" id="campo_pesquisa">
-            
-
         </div>
     </header>
 
    
 
     <section class="secoes_filmes">
-        
+        <div id="resultados-container"></div>
         <!--Seção Bombando. -->
         <div class="bombando">
         <span class="material-symbols-rounded right_btn" id="nextBtn">arrow_right</span>
@@ -63,8 +60,8 @@
 
             <div class="bombando_secao projeto-carousel" id="carousel">
                 
-                <img src="./img/twd.jpg" class="img-series"      onclick="window.location.href='files/film-page.html'">
-                <img src="./img/onepiece.jpg" class="img-series" onclick="window.location.href='files/film-page.html'">>
+                <img src="./img/twd.jpg" class="img-series result-item"      alt="the walking dead"     onclick="window.location.href='files/film-page.html'">
+                <img src="./img/onepiece.jpg" class="img-series result-item" alt="one piece"     onclick="window.location.href='files/film-page.html'">>
                 <img src="./img/1.jpg" class="img-series">
                 <img src="./img/2.jpg" class="img-series">
                 <img src="./img/bkbad.jpg" class="img-series">
@@ -219,7 +216,7 @@
 
 
 
-
+    <script src="pesquisar.js"></script>
     <script src="player.js"></script>
     <script src="files/flm.js"></script>
     <script src="pages.js"></script>
