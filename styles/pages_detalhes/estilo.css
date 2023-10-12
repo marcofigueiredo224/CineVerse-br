@@ -18,3 +18,9 @@ body{
     color: white;
     font-family: 'Kanit', sans-serif;
 }
+
+
+iframe{
+    height: 500px;
+    width: 500px;
+}
