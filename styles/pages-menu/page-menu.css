@@ -1,0 +1,84 @@
+.reload-inicio{
+    text-decoration: none;
+    color: white;
+}
+.title_secoes{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.img-series {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.lancamentos_secao {
+    text-align: center; 
+}
+
+.lancamentos_secao .img-series {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 1%;
+}
+
+.img-series:hover {
+    transform: scale(1.1); /* Aumenta a escala em 10% */
+    transition: transform 0.2s; /* Adiciona uma transição suave */
+  }
+
+ 
+ 
+
+    #paginate {
+        width: 100%;
+
+        margin: 32px auto;
+    }
+
+    #paginate .item {
+        border-bottom: 1px solid hsl(32, 98%, 12%);
+        padding: 16px 32px;
+    }
+
+    #paginate .item:hover {
+        background-color: rgba(255, 255, 255, 0.04);
+    }
+
+    #paginate .controls {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 8px;
+    }
+
+    #paginate .controls div {
+        cursor: pointer;
+
+        /* border: 1px solid #eee; */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 14;
+    }
+
+    #paginate .controls div:not(.numbers),
+    #paginate .controls div.numbers div{
+        width: 40px;
+        height: 40px;
+    }
+
+    #paginate .controls div.numbers div:hover,
+    #paginate .controls div.numbers div.active {
+        color: var(--primary);
+    }
+
+
+    
