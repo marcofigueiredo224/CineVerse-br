@@ -1,5 +1,13 @@
 
 
+.infos_img-text{
+    display: flex;
+}
+
+.infos-serie{
+    display: flex;
+    flex-direction: column;
+}
 
 .foto-dealhes{
     width: 300px;
@@ -54,7 +62,7 @@
 
 .subtitulo-detalhes{
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 15px;
     color: rgb(214, 0, 0);
     font-weight: bold;
 }
@@ -88,18 +96,22 @@
 @media screen and (min-width: 1023px) and (max-width: 2000px) {
 
     
-    .nota-imdb{
-        text-align: center;
-    }
-    
-    .nota-imdb{
+   
+    .infos-serie{
+        border: solid 2px white;
         
     }
+   
     .estrelas{
         display: flex;
         text-align: center;
         margin: 0 auto;
-        margin-top: -23%;
+        margin-top: -18%;
+        
+    }
+
+    .estrelas-coringa{
+        margin-top: -40%;
     }
     
     .pag_play{
@@ -130,10 +142,13 @@
     }
 
     .temps-frame{
-        height: 800px;
-        width: 1400px;
+        height: 500px;
+        width: 850px;
     }
 
+    .play-coringa{
+        margin-top: ;
+    }
 
 }
 
