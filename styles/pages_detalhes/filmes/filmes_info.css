@@ -15,13 +15,13 @@
    
 }
 
-.nota-imdb{
-    text-align: center;
-}
 
 .nota-imdb{
-    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
     font-weight: bold;
+    font-size: 25px;
 }
 .sinopse{
     font-size: 14px;
@@ -30,10 +30,7 @@
 }
 
 .estrelas{
-    display: flex;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: -30%;
+  width: 350px;
 }
 
 
@@ -86,7 +83,7 @@
 .pag-play_tittle{
     font-size: 35px;
     font-weight: bold;
-    margin-top: -10%;
+    margin-top: 10%;
     padding: 20px;
 }
 
@@ -97,21 +94,19 @@
 
     
    
-    .infos-serie{
-        border: solid 2px white;
-        
-    }
-   
-    .estrelas{
+    .nota-imdb{
         display: flex;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: -18%;
-        
+        flex-direction: column;
+        margin-top: 2%;
+        font-size: 20px;
+    }
+    .estrelas{
+        width: 230px;
+       
     }
 
-    .estrelas-coringa{
-        margin-top: -40%;
+    .nota{
+        padding: 10px;
     }
     
     .pag_play{
@@ -146,9 +141,11 @@
         width: 850px;
     }
 
-    .play-coringa{
-        margin-top: ;
-    }
+  .infos_serie{
+    margin-left: 7%;
+  }
+
+
 
 }
 

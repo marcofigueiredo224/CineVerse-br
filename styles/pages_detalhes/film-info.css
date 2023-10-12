@@ -16,24 +16,24 @@
 .infos_serie_superior{
     margin-left: 10px;
 }
-.nota-imdb{
-    text-align: center;
-}
-
-.nota-imdb{
-    margin-top: 10%;
-}
 
 
 .nota{
     font-weight: bold;
 }
-.estrelas{
+
+.nota-imdb{
     display: flex;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: -30%;
+    flex-direction: column;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 25px;
 }
+
+.estrelas{
+    width: 350px;
+  }
+
 
 
 
@@ -45,7 +45,15 @@
 
 .subtitulo-detalhes{
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 15px;
+    color: rgb(214, 0, 0);
+    font-weight: bold;
+}
+
+.sinopse{
+    font-size: 14px;
+    margin-top: 2%;
+    color: aliceblue;
 }
 
 .temporadas_conteudo{
@@ -158,18 +166,21 @@
 @media screen and (min-width: 1023px) and (max-width: 2000px) {
 
     
-    .nota-imdb{
-        text-align: center;
-    }
+   
     
+   
     .nota-imdb{
-        
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        font-size: 20px;
     }
     .estrelas{
-        display: flex;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: -20%;
+        width: 230px;
+       
+    }
+    .nota{
+        padding: 10px;
     }
     
     .temporadas{
