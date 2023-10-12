@@ -81,4 +81,28 @@
     }
 
 
+    .desktop-img{
+        display: none;
+      }
+
+
+    @media screen and (min-width: 1023px) and (max-width: 2000px) {
+
+        .title_secoes{
+            font-size: 30px;
+        }
     
+        .img-series{
+            
+            height: 300px;
+            max-width: 20%; /* Isso garantirá que a imagem não seja maior que seu contêiner pai */
+            
+        }
+
+        
+    .desktop-img{
+        display: block;
+      }
+
+
+    }
