@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/styles/pages_detalhes/filmes/estilo.css">
+    <title>CineVerse | Pânico 6</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="navbar">
+            <span class="material-symbols-outlined" id="icon_menu-hamburguer" onclick="clickMenu()">
+                menu
+                </span>
+                <ul class="menu" id="menu">
+                    <li class="menu__items">
+                        <a class="link_itens" href="/index.html" >Início</a>
+                        
+                    </li>
+                    <li class="menu__items">
+                        <a class="link_itens" href="#">Séries</a>
+                    </li>
+                    <li class="menu__items">
+                        <a class="link_itens" href="#l">Fimes</a>
+                    </li>
+                    <li class="menu__items">
+                        <a class="link_itens" href="/files/lancamentos/1.html">Lançamentos</a>
+                    </li>
+                   
+                </ul>
+                <ul class="menu_desktop" id="menu_desktop">
+                    <li class="menu_desktop_items">
+                        <a class="link_desktop_itens" href="/index.html">Início</a>
+                    </li>
+                    <li class="menu__items">
+                        <a class="link_desktop_itens" href="#">Séries</a>
+                    </li>
+                    <li class="menu__items">
+                        <a class="link_desktop_itens" href="/files/pages-filmes/filmes.html">Fimes</a>
+                    </li>
+                    </ul>
+        </div>
+
+        <div class="nav_title">
+           <a class="reload-inicio" href="/index.html"> <h1 class="title_cabecalho"></h1>CineVerse<span>br</span></h1></a>      
+        </div>
+
+
+        <div class="nav_pesquisa">
+            
+            <span class="material-symbols-outlined" id="icon_pesquisa"  onclick="clickPesquisar()">search</span>
+            <input class="campo_pesquisa" placeholder="Buscar" type="text" id="campo_pesquisa">
+            <input class="campo_pesquisa_desktop" placeholder="Buscar" type="text" id="campo_pesquisa_desktop">
+            
+
+        </div>
+    </header>
+    
+    <section class="infos_serie">
+        <div class="infos_img-text">
+            <img src="/img/filmes/panico6.jpg" class="foto-dealhes">
+            <div class="infos_serie_superior">
+            <h2 class="titulo-detalhes">Pânico 6</h2>
+            <p class="subtitulo-detalhes">Mar. 9, 2023</p>
+            <p class="sinopse">Os sobreviventes dos assassinatos de Ghostface deixam Woodsboro para trás e iniciam um novo capítulo na cidade de Nova York.</p>
+            <span class="nota-imdb">
+                <span class="nota">Nota IMDB</span>
+                <img src="/img/estrelas/6-estrelas.png" class="estrelas">
+            </span> 
+        </div>
+      
+        
+    </section>
+
+
+    
+    
+
+
+    <!--Filme!-->. 
+    <div class="pag_play" id="play_temp1ep01">
+        <h2 class="pag-play_tittle">Player Carregado com Sucesso!</h2>
+        <iframe class="temps-frame" id="videoIframe" src="https://aoseugosto.eu.org/embed/tt17663992" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+        
+    </div>
+
+    
+    
+
+
+    <footer>
+        <div class="rodape">
+            
+                <a href="#" class="rodape_textos"> Políticas de cookies</a>
+                <a href="#" class="rodape_textos">Entre em contato</a>
+                <a href="#" class="rodape_textos">Termos de uso</a>   
+            
+        </div>
+        <p class="rodape_text-last">© 2023 CineVisionbr.  </p>
+    </footer>
+    
+
+
+    
+
+    <script src="/pesquisar.js"></script>
+    <script src="click_teporada.js"></script>
+    <script src="/pages.js"></script>
+    <script src="/camps_pesquisa.js"></script>
+</body>
+</html>
