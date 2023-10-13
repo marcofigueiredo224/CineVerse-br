@@ -1,44 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const campoPesquisa = document.getElementById("campo_pesquisa");
-    const resultItems = document.querySelectorAll(".result-item");
-    const resultadosContainer = document.getElementById("resultados-container");
-    const tituloResultados = document.createElement("h2");
+ // Função para processar a pesquisa e redirecionar para a página de resultados
+ function realizarPesquisa(termoPesquisa) {
+    // Redireciona para a página de resultados com o termo de pesquisa como parâmetro na URL
+    window.location.href = '/filmes.html?pesquisa=' + termoPesquisa;
+}
 
-    campoPesquisa.addEventListener("input", function () {
-        const termoPesquisa = campoPesquisa.value.toLowerCase();
+// Campo de pesquisa no cabeçalho
+const inputBox = document.getElementById("campo_pesquisa");
 
-        // Limpar o conteúdo de resultados
-        resultadosContainer.innerHTML = '';
+inputBox.addEventListener('keyup', function (e) {
+    if (e.key === 'Enter') {
+        const termoPesquisa = inputBox.value.toLowerCase().trim();
+        realizarPesquisa(termoPesquisa);
+    }
+});
 
-        if (termoPesquisa === "") {
-            // Se o campo de pesquisa estiver vazio, mostrar todos os elementos novamente
-            resultItems.forEach(function (imagem) {
-                imagem.style.display = "block";
-            });
-            // Ocultar o título "Resultados"
-            tituloResultados.style.display = "none";
-        } else {
-            resultItems.forEach(function (imagem) {
-                const altImagem = imagem.alt.toLowerCase();
-                if (altImagem.includes(termoPesquisa)) {
-                    const imagemClone = imagem.cloneNode(true);
-                    resultadosContainer.appendChild(imagemClone);
-                } else {
-                    imagem.style.display = "none";
-                }
-            });
+// Campo de pesquisa na versão desktop
+const inputBoxDesktop = document.getElementById("campo_pesquisa_desktop");
 
-            // Exibir o título "Resultados" somente quando houver resultados da pesquisa
-            if (resultadosContainer.childElementCount > 0) {
-                tituloResultados.innerText = "Resultados";
-                resultadosContainer.insertBefore(tituloResultados, resultadosContainer.firstChild);
-                tituloResultados.style.fontSize = "32px";
-                tituloResultados.style.padding = "10px";
-                tituloResultados.style.fontWeight = "bold";
-                tituloResultados.style.display = "block";
-            } else {
-                tituloResultados.style.display = "none";
-            }
-        }
-    });
+inputBoxDesktop.addEventListener('keyup', function (e) {
+    if (e.key === 'Enter') {
+        const termoPesquisa = inputBoxDesktop.value.toLowerCase().trim();
+        realizarPesquisa(termoPesquisa);
+    }
 });

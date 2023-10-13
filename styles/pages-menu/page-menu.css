@@ -1,3 +1,7 @@
+.cineverse{
+    text-decoration: none;
+    color: white;
+}
 .reload-inicio{
     text-decoration: none;
     color: white;
@@ -122,3 +126,5 @@
         background-color: rgb(214, 0, 0);;
         transition: 0.8s;
     }
+
+  

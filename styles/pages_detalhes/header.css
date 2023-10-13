@@ -70,6 +70,14 @@
     padding: 5px;
 }
 
+.menu_desktop{
+    display: none;
+}
+.campo_pesquisa_desktop{
+    display: none;
+}
+
+
 
 
 @media screen and (min-width: 1023px) and (max-width: 2000px) {
@@ -84,7 +92,7 @@
 
     .campo_pesquisa{
         width: 10%;
-        display: block;
+        display: none;
         position: absolute;
         margin-left: -10%;
         color: white;
@@ -96,6 +104,50 @@
         cursor: pointer;
         font-size: 55px;
         font-size: 35px;
+    }
+
+
+    .material-symbols-outlined{
+    
+        display: none;
+    }
+
+    .menu_desktop {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: block;
+       
+        
+        
+    }
+    
+    /* Defina a lista em linha (horizontal) */
+    .menu_desktop li {
+        display: inline;
+        margin-right: 20px; /* Espaçamento entre os itens da lista, ajuste conforme necessário */
+        font-size: 18px;
+        
+        
+    }
+    .link_desktop_itens:hover{
+        color: rgb(214, 0, 0);
+        transition: 0.8s all;
+        font-size: 20px;
+    }
+    
+    /* Remova a decoração dos links */
+    .menu_desktop a {
+        text-decoration: none;
+        color: white;
+    }
+    .campo_pesquisa_desktop{
+        display: block;
+        background-color: rgb(46, 46, 46);
+        border-radius: 2px;
+        border: solid  1px white;
+        padding: 5px;
+        color: white;
     }
 }
 
