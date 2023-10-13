@@ -78,6 +78,8 @@
 }
 .img-series { 
     scroll-snap-align: start;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 .projeto-navigation {
     display: flex;
@@ -104,12 +106,15 @@
 
     .img-series{
         width: 320px;
+        margin-right: 13px;
+        
     }
     
 
     .img-series-10{
         width: 150px;
         margin-right: 5px;
+     
     }
 
     .nmr_top10{
