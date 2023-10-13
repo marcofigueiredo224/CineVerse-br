@@ -85,6 +85,8 @@
         display: none;
       }
 
+    
+
 
     @media screen and (min-width: 1023px) and (max-width: 2000px) {
 
@@ -103,6 +105,20 @@
     .desktop-img{
         display: block;
       }
+    }
 
+    .vertodos_btn{
+        border-radius: 7px;
+        padding: 5px;
+        color: white;
+        background-color: transparent;
+        border: solid 1px white;
+        margin-top: 10px;
+        cursor: pointer;
+        
+    }
 
+    .vertodos_btn:hover{
+        background-color: rgb(214, 0, 0);;
+        transition: 0.8s;
     }
