@@ -34,6 +34,10 @@
     transform: scale(1.1); /* Aumenta a escala em 10% */
     transition: transform 0.2s; /* Adiciona uma transição suave */
   }
+.img-series-result:hover {
+    transform: scale(1.1); /* Aumenta a escala em 10% */
+    transition: transform 0.2s; /* Adiciona uma transição suave */
+  }
 
  
  
@@ -89,6 +93,22 @@
         display: none;
       }
 
+
+      
+    .img-container-result {
+        display: inline-block;
+        margin: 10px; /* Espaçamento entre as imagens */
+    }
+    
+    .img-series-result {
+        width: 100px;
+        max-height: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: -20px;
+        margin-left: 0px;
+    }
+
     
 
 
@@ -127,4 +147,13 @@
         transition: 0.8s;
     }
 
-  
+        .img-series-result {
+           width: 250px;
+            max-height: 280px;
+            margin-right: 10px;
+        }
+        .img-container-result {
+            margin: 20px;
+        }
+        
+    
