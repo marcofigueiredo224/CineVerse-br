@@ -18,6 +18,7 @@
     height: 120px;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 
 .lancamentos_secao {
@@ -98,6 +99,7 @@
     .img-container-result {
         display: inline-block;
         margin: 10px; /* Espaçamento entre as imagens */
+        
     }
     
     .img-series-result {
@@ -105,6 +107,7 @@
         max-height: 100px;
         border-radius: 10px;
         cursor: pointer;
+       
        
     }
 
@@ -151,6 +154,7 @@
         .img-series-result {
            width: 250px;
             max-height: 350px;
+
            
             
         }
