@@ -1,7 +1,7 @@
 
 @import url('/styles/pages-menu/page-menu.css');
 @import url('/styles/header.css');
-@import url('/styles/pages_detalhes/rodape.css');
+@import url('/styles/pages_detalhes/filmes/rodape.css');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:ital,wght@0,600;1,600&display=swap');
 
 
@@ -11,5 +11,7 @@ body{
     color: white;
     font-family: 'Kanit', sans-serif;
 }
+
+
 
 

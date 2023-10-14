@@ -105,13 +105,45 @@
         max-height: 100px;
         border-radius: 10px;
         cursor: pointer;
+        text-align: center;
+        display: inline-block;
        
     }
+
+    .todos_secao{
+        display: flex;
+        align-items: center;
+    
+    }
+    .lancamentos_secao {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 4 colunas com largura igual */
+        
+    }
+    
+    .img-container-result {
+        text-align: center;
+        position: relative;
+    }
+    
+    .img-series-result {
+        
+        width: 100px;
+        max-height: 100%; /* Define uma altura máxima */
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+        
+        
+    }
+    
+
+    
 
     
 
 
-    @media screen and (min-width: 1023px) and (max-width: 2000px) {
+    @media screen and (min-width: 800px) and (max-width: 2000px) {
 
        
        
@@ -127,35 +159,58 @@
         }
 
         
-    .desktop-img{
-        display: block;
-      }
-    }
-
-    .vertodos_btn{
-        border-radius: 7px;
-        padding: 5px;
-        color: white;
-        background-color: transparent;
-        border: solid 1px white;
-        margin-top: 10px;
-        cursor: pointer;
+        .desktop-img{
+            display: block;
+        }
         
-    }
 
-    .vertodos_btn:hover{
-        background-color: rgb(214, 0, 0);;
-        transition: 0.8s;
-    }
-
-        .img-series-result {
-           width: 250px;
-            max-height: 350px;
-           
+        .vertodos_btn{
+            border-radius: 7px;
+            padding: 5px;
+            color: white;
+            background-color: transparent;
+            border: solid 1px white;
+            margin-top: 10px;
+            cursor: pointer;
             
         }
-        .img-container-result {
-            margin: 20px;
+
+        .vertodos_btn:hover{
+            background-color: rgb(214, 0, 0);;
+            transition: 0.8s;
+        }
+
+            .img-series-result {
+            width: 250px;
+                max-height: 350px;
+            
+                
+            }
+            .img-container-result {
+                margin: 20px;
+            }
+
+            
+            .lancamentos_secao {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr); /* 4 colunas com largura igual */
+                grid-gap: 10px; /* Espaçamento entre as imagens */
+                margin: 30px;
+            }
+            
+            .img-container-result {
+                text-align: center;
+                position: relative;
+            }
+            
+            .img-series-result {
+            
+                max-height: 100%; /* Define uma altura máxima */
+                border-radius: 10px;
+                cursor: pointer;
+                display: block;
+            }
+
         }
         
     
