@@ -115,6 +115,7 @@
         transition: 0.8s all;
         font-size: 20px;
     }
+  
     
     /* Remova a decoração dos links */
     .menu_desktop a {
@@ -129,6 +130,9 @@
         padding: 5px;
         color: white;
     }
+
+
+    
     
     
     

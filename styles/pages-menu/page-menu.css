@@ -133,10 +133,32 @@
         border-radius: 10px;
         cursor: pointer;
         display: block;
+        align-items: center;
+        
         
         
     }
     
+    .img-filmes-categ {
+        text-align: center;
+        display: flex;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 0 auto; /* Centraliza horizontalmente */
+    }
+    
+        
+    
+    
+
+    .lancamentos_secao_categ {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 4 colunas com largura igual */
+        grid-gap: 30px; /* Espaçamento entre as imagens */
+        margin: 30px;
+    }
 
     
 
@@ -193,7 +215,14 @@
             
             .lancamentos_secao {
                 display: grid;
-                grid-template-columns: repeat(6, 1fr); /* 4 colunas com largura igual */
+                grid-template-columns: repeat(4, 1fr); /* 4 colunas com largura igual */
+                grid-gap: 10px; /* Espaçamento entre as imagens */
+                margin: 30px;
+            }
+
+            .lancamentos_secao_categ {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr); /* 4 colunas com largura igual */
                 grid-gap: 10px; /* Espaçamento entre as imagens */
                 margin: 30px;
             }
@@ -210,6 +239,9 @@
                 cursor: pointer;
                 display: block;
             }
+
+
+            
 
         }
         
