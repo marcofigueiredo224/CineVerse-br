@@ -1,6 +1,3 @@
-const minWidthForScript = 200;
-const windowWidth = window.innerWidth;
-
 function setupCarousel(carouselId, prevBtnId, nextBtnId) {
     if (windowWidth >= minWidthForScript) {
         const leftArrow = document.getElementById(prevBtnId);
@@ -37,6 +34,11 @@ setupCarousel('carousel3', 'prevBtn3', 'nextBtn3');
 setupCarousel('carousel4', 'prevBtn4', 'nextBtn4');
 setupCarousel('carousel5', 'prevBtn5', 'nextBtn5');
 setupCarousel('carousel6', 'prevBtn6', 'nextBtn6');
+setupCarousel('carousel7', 'prevBtn7', 'nextBtn7');
+setupCarousel('carousel8', 'prevBtn8', 'nextBtn8');
+setupCarousel('carousel9', 'prevBtn9', 'nextBtn9');
+setupCarousel('carousel10', 'prevBtn10', 'nextBtn10');
+setupCarousel('carousel11', 'prevBtn11', 'nextBtn11');
 
 
 
@@ -77,14 +79,13 @@ function setupSmoothScroll(carouselId) {
 
 setupSmoothScroll('carousel');
 setupSmoothScroll('carousel1');
+setupSmoothScroll('carousel2');
 setupSmoothScroll('carousel3');
-setupSmoothScroll('carousel6');
-setupSmoothScroll('carousel5');
 setupSmoothScroll('carousel4');
-
-
-
-
-
-
-
+setupSmoothScroll('carousel5');
+setupSmoothScroll('carousel6');
+setupSmoothScroll('carousel7');
+setupSmoothScroll('carousel8');
+setupSmoothScroll('carousel9');
+setupSmoothScroll('carousel10');
+setupSmoothScroll('carousel11');
