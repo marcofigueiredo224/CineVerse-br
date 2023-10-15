@@ -167,7 +167,16 @@
     }
 
     
-
+    .vertodos_btn{
+        border-radius: 7px;
+        padding: 5px;
+        color: white;
+        background-color: transparent;
+        border: solid 1px white;
+        margin-top: 10px;
+        cursor: pointer;
+        
+    }
     
 
 

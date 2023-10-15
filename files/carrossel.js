@@ -30,6 +30,7 @@ function setupCarousel(carouselId, prevBtnId, nextBtnId) {
 
 setupCarousel('carousel', 'prevBtn', 'nextBtn');
 setupCarousel('carousel1', 'prevBtn1', 'nextBtn1');
+setupCarousel('carousel2', 'prevBtn2', 'nextBtn2');
 setupCarousel('carousel3', 'prevBtn3', 'nextBtn3');
 setupCarousel('carousel4', 'prevBtn4', 'nextBtn4');
 setupCarousel('carousel5', 'prevBtn5', 'nextBtn5');

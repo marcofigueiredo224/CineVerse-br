@@ -17,7 +17,12 @@
 
 .img-series{
     width: 200px;
+    height: 280px;
     margin-right: 5px;
+}
+
+.img-seriess{
+    height: 120px;
 }
 
 .img-series:hover {
@@ -124,4 +129,16 @@
         
         
     }
+
+    .img-series{
+        width: 320px;
+        height: 440px;
+        margin-right: 5px;
+    }
+    
+    .img-seriess{
+        height: 180px;
+    }
+    
+    
 }
